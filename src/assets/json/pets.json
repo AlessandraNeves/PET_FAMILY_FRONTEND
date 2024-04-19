@@ -1,0 +1,578 @@
+{
+    "animals": [
+        {
+            "id": 1,
+            "name": "Billy",
+            "birthday": "9 anos e 7 meses",
+            "type": "Cão",
+            "gender": "Macho",
+            "breed": "Labrador",
+            "weight": "18",
+            "microchip": "sem identificação",
+            "photo": ["data:image/jpeg;base64,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"],
+            "active": 1,
+            "medicines": [
+                {
+                    "id": 1, 
+                    "name": "NexGard",
+                    "type": "Antipulgas",
+                    "protection_days": "30", 
+                    "dosage": "1 tablete",
+                    "use": "oral",
+                    "schedule": "2023/12/19"
+                }, 
+                {
+                    "id": 3, 
+                    "name": "Vetmax Plus 700 mg",
+                    "type": "Vermífugo",
+                    "protection_days": "30", 
+                    "dosage": "1 comprimido",
+                    "use": "oral",
+                    "schedule": "2024/03/07"
+                }
+            ],
+            "vaccines": [
+                {
+                    "id": 1,
+                    "name": "antirrábica",
+                    "type": "monovalente",
+                    "disease": ["raiva"],
+                    "pet": ["cão", "gato"],
+                    "first_dose_days": "120 dias",
+                    "second_dose_days": "",
+                    "third_dose_days": "",
+                    "booster_dose": "Anual",
+                    "schedule": "2023/12/19"
+                }, 
+                {
+                    "id": 3, 
+                    "name": "V10",
+                    "type": "polivalente",
+                    "disease": ["cinomose", "coronavirose", "hepatite infecciosa canina", "leptospirose (sorovares Canicola, Icterohaemorrhagiae, Grippotyphosa e Pomona)", "parainfluenza", "parvovirose"],
+                    "pet": ["cão"],
+                    "first_dose_days": "42 dias",
+                    "second_dose_days": "21 dias",
+                    "third_dose_days": "21 dias",
+                    "booster_dose": "Anual",
+                    "schedule": "2024/03/07"
+                },
+                {
+                    "id": 4,
+                    "name": "gripe",
+                    "type": "monovalente",
+                    "disease": ["gripe"],
+                    "pet": ["cão"],
+                    "first_dose_days": "42 dias",
+                    "second_dose_days": "21 dias",
+                    "third_dose_days": "21 dias",
+                    "booster_dose": "Anual",
+                    "schedule": "2024/03/07"
+                },
+                {
+                    "id": 5,
+                    "name": "leishmaniose",
+                    "type": "monovalente",
+                    "disease": ["leishmaniose"],
+                    "pet": ["cão"],
+                    "first_dose_days": "42 dias",
+                    "second_dose_days": "21 dias",
+                    "third_dose_days": "21 dias",
+                    "booster_dose": "Anual",
+                    "schedule": "2024/03/07"
+                }
+            ],
+            "history": [
+                {
+                    "id": 1,
+                    "type": "medicine",
+                    "name": "NexGard",
+                    "schedule": "2021/01/12"
+                },
+                {
+                    "id": 2,
+                    "type": "vaccine",
+                    "name": "antirrábica",
+                    "schedule": "2021/01/12"
+                },
+                {
+                    "id": 3,
+                    "type": "disease",
+                    "name": "Giardia"     
+                }         
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Flufy",
+            "birthday": "11 meses",
+            "type": "Gato",
+            "gender": "Fêmea",
+            "breed": "",
+            "weight": "1.8",
+            "microchip": "sem identificação",
+            "photo": "data:image/jpeg;base64,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",
+            "active": 1,            
+            "medicines": [
+                {
+                    "id": 3, 
+                    "name": "Vetmax Plus 700 mg",
+                    "type": "Vermífugo",
+                    "protection_days": "30", 
+                    "dosage": "1 comprimido",
+                    "use": "oral",
+                    "schedule": "2024/03/07"
+                }
+            ],
+            "vaccines": [
+                {
+                    "id": 6,
+                    "name": "V3",
+                    "type": "polivalente",
+                    "disease": ["panleucopenia", "calicivirose", "rinotraqueíte"],
+                    "pet": ["gato"],
+                    "first_dose_days": "42 dias",
+                    "second_dose_days": "21 dias",
+                    "third_dose_days": "21 dias",
+                    "booster_dose": "Anual",
+                    "schedule": "2023/12/19"
+                },
+                {
+                    "id": 8,
+                    "name": "V5",
+                    "type": "polivalente",
+                    "disease": ["panleucopenia", "calicivirose", "rinotraqueíte", "clamidiose", "leucemia"],
+                    "pet": ["gato"],
+                    "first_dose_days": "42",
+                    "second_dose_days": ["21", "21"],
+                    "booster_dose": "Anual",
+                    "schedule": "2024/03/07"
+                }
+            ],
+            "history": [
+                {
+                    "id": 1,
+                    "type": "medicine",
+                    "name": "NexGard",
+                    "schedule": "2021/01/12"
+                },
+                {
+                    "id": 2,
+                    "type": "vaccine",
+                    "name": "antirrábica",
+                    "schedule": "2021/01/12"
+                },
+                {
+                    "id": 3,
+                    "type": "disease",
+                    "name": "Pneumonite",
+                    "schedule": "2021/01/12"     
+                }                 
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Mila",
+            "birthday": "5 anos e 3 meses",
+            "type": "Cão",
+            "gender": "Fêmea",
+            "breed": "Cani Corso",
+            "weight": "16.4",
+            "microchip": "sem identificação",
+            "photo": ["data:image/jpeg;base64,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"],
+            "active": 1,
+            "medicines": [
+                {
+                    "id": 1, 
+                    "name": "NexGard",
+                    "type": "Antipulgas",
+                    "protection_days": "30", 
+                    "dosage": "1 tablete",
+                    "use": "oral",
+                    "schedule": "2023/12/19"
+                }, 
+                {
+                    "id": 3, 
+                    "name": "Vetmax Plus 700 mg",
+                    "type": "Vermífugo",
+                    "protection_days": "30", 
+                    "dosage": "1 comprimido",
+                    "use": "oral",
+                    "schedule": "2024/03/07"
+                }
+            ],
+            "vaccines": [
+                {
+                    "id": 1,
+                    "name": "antirrábica",
+                    "type": "monovalente",
+                    "disease": ["raiva"],
+                    "pet": ["cão", "gato"],
+                    "first_dose_days": "84 dias",
+                    "second_dose_days": "",
+                    "third_dose_days": "",
+                    "booster_dose": "365 dias",
+                    "schedule": "2023/12/19"
+                }, 
+                {
+                    "id": 3, 
+                    "name": "V10",
+                    "type": "polivalente",
+                    "disease": ["cinomose", "coronavirose", "hepatite infecciosa canina", "leptospirose (sorovares Canicola, Icterohaemorrhagiae, Grippotyphosa e Pomona)", "parainfluenza", "parvovirose"],
+                    "pet": ["cão"],
+                    "first_dose_days": "42 dias",
+                    "second_dose_days": "21 dias",
+                    "third_dose_days": "21 dias",
+                    "booster_dose": "365 dias",
+                    "schedule": "2024/03/07"
+                },
+                {
+                    "id": 4,
+                    "name": "gripe",
+                    "type": "monovalente",
+                    "disease": ["gripe"],
+                    "pet": ["cão"],
+                    "first_dose_days": "42 dias",
+                    "second_dose_days": "21 dias",
+                    "third_dose_days": "21 dias",
+                    "booster_dose": "365 dias",
+                    "schedule": "2024/03/07"
+                },
+                {
+                    "id": 5,
+                    "name": "leishmaniose",
+                    "type": "monovalente",
+                    "disease": ["leishmaniose"],
+                    "pet": ["cão"],
+                    "first_dose_days": "42 dias",
+                    "second_dose_days": "21 dias",
+                    "third_dose_days": "21 dias",
+                    "booster_dose": "365 dias",
+                    "schedule": "2024/03/07"
+                }
+            ],
+            "history": [
+                {
+                    "id": 1,
+                    "type": "medicine",
+                    "name": "NexGard",
+                    "schedule": "2021/01/12"
+                },
+                {
+                    "id": 2,
+                    "type": "vaccine",
+                    "name": "antirrábica",
+                    "schedule": "2021/01/12"
+                },
+                {
+                    "id": 3,
+                    "type": "disease",
+                    "name": "Giardia",
+                    "schedule": "2021/01/12"  
+                }                    
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Najibe",
+            "birthday": "16 anos e 4 meses",
+            "type": "Cavalo",
+            "gender": "Macho",
+            "breed": "",
+            "weight": "767.9",
+            "microchip": "sem identificação",
+            "photo": ["data:image/jpeg;base64,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"],
+            "active": 1,
+            "medicines": [],
+            "vaccines": [],
+            "history": []
+        },
+        {
+            "id": 5,
+            "name": "Nico",
+            "birthday": "3 anos e 4 meses",
+            "type": "Cão",
+            "gender": "Macho",
+            "breed": "Shih-tzu",
+            "weight": "9.5",
+            "microchip": "981020002275730",
+            "photo": ["data:image/jpeg;base64,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"],
+            "active": 1,
+            "medicines": [
+                {
+                    "id": 1, 
+                    "name": "NexGard",
+                    "type": "Antipulgas",
+                    "protection_days": "30", 
+                    "dosage": "1 tablete",
+                    "use": "oral",
+                    "schedule": "2023/12/19"
+                }, 
+                {
+                    "id": 3, 
+                    "name": "Vetmax Plus 700 mg",
+                    "type": "Vermífugo",
+                    "protection_days": "30", 
+                    "dosage": "1 comprimido",
+                    "use": "oral",
+                    "schedule": "2024/03/07"
+                }
+            ],
+            "vaccines": [
+                {
+                    "id": 1,
+                    "name": "antirrábica",
+                    "type": "monovalente",
+                    "disease": ["raiva"],
+                    "pet": ["cão", "gato"],
+                    "first_dose_days": "84 dias",
+                    "second_dose_days": "",
+                    "third_dose_days": "",
+                    "booster_dose": "365 dias",
+                    "schedule": "2023/12/19"
+                }, 
+                {
+                    "id": 3, 
+                    "name": "V10",
+                    "type": "polivalente",
+                    "disease": ["cinomose", "coronavirose", "hepatite infecciosa canina", "leptospirose (sorovares Canicola, Icterohaemorrhagiae, Grippotyphosa e Pomona)", "parainfluenza", "parvovirose"],
+                    "pet": ["cão"],
+                    "first_dose_days": "42 dias",
+                    "second_dose_days": "21 dias",
+                    "third_dose_days": "21 dias",
+                    "booster_dose": "365 dias",
+                    "schedule": "2024/03/07"
+                },
+                {
+                    "id": 4,
+                    "name": "gripe",
+                    "type": "monovalente",
+                    "disease": ["gripe"],
+                    "pet": ["cão"],
+                    "first_dose_days": "42 dias",
+                    "second_dose_days": "21 dias",
+                    "third_dose_days": "21 dias",
+                    "booster_dose": "365 dias",
+                    "schedule": "2024/03/07"
+                },
+                {
+                    "id": 5,
+                    "name": "leishmaniose",
+                    "type": "monovalente",
+                    "disease": ["leishmaniose"],
+                    "pet": ["cão"],
+                    "first_dose_days": "42 dias",
+                    "second_dose_days": "21 dias",
+                    "third_dose_days": "21 dias",
+                    "booster_dose": "365 dias",
+                    "schedule": "2024/03/07"
+                }
+            ],
+            "history": [
+                {
+                    "id": 1,
+                    "type": "medicine",
+                    "name": "NexGard",
+                    "schedule": "2021/01/12"
+                },
+                {
+                    "id": 1,
+                    "type": "vaccine",
+                    "name": "antirrábica",
+                    "schedule": "2021/01/12"
+                }                
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Thor",
+            "birthday": "7 anos e 6 meses",
+            "type": "Cão",
+            "gender": "Macho",
+            "breed": "Golden Retriver",
+            "weight": "14.9",
+            "microchip": "sem identificação",
+            "photo": ["data:image/jpeg;base64,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"],
+            "active": 1,
+            "medicines": [
+                {
+                    "id": 1, 
+                    "name": "NexGard",
+                    "type": "Antipulgas",
+                    "protection_days": "30", 
+                    "dosage": "1 tablete",
+                    "use": "oral",
+                    "schedule": "2023/12/19"
+                }, 
+                {
+                    "id": 3, 
+                    "name": "Vetmax Plus 700 mg",
+                    "type": "Vermífugo",
+                    "protection_days": "30", 
+                    "dosage": "1 comprimido",
+                    "use": "oral",
+                    "schedule": "2024/03/07"
+                }
+            ],
+            "vaccines": [
+                {
+                    "id": 1,
+                    "name": "antirrábica",
+                    "type": "monovalente",
+                    "disease": ["raiva"],
+                    "pet": ["cão", "gato"],
+                    "first_dose_days": "84 dias",
+                    "second_dose_days": "",
+                    "third_dose_days": "",
+                    "booster_dose": "365 dias",
+                    "schedule": "2023/12/19"
+                }, 
+                {
+                    "id": 3, 
+                    "name": "V10",
+                    "type": "polivalente",
+                    "disease": ["cinomose", "coronavirose", "hepatite infecciosa canina", "leptospirose (sorovares Canicola, Icterohaemorrhagiae, Grippotyphosa e Pomona)", "parainfluenza", "parvovirose"],
+                    "pet": ["cão"],
+                    "first_dose_days": "42 dias",
+                    "second_dose_days": "21 dias",
+                    "third_dose_days": "21 dias",
+                    "booster_dose": "365 dias",
+                    "schedule": "2024/03/07"
+                },
+                {
+                    "id": 4,
+                    "name": "gripe",
+                    "type": "monovalente",
+                    "disease": ["gripe"],
+                    "pet": ["cão"],
+                    "first_dose_days": "42",
+                    "second_dose_days": "21 dias",
+                    "third_dose_days": "21 dias",
+                    "booster_dose": "365 dias",
+                    "schedule": "2024/03/07"
+                },
+                {
+                    "id": 5,
+                    "name": "leishmaniose",
+                    "type": "monovalente",
+                    "disease": ["leishmaniose"],
+                    "pet": ["cão"],
+                    "first_dose_days": "42",
+                    "second_dose_days": "21 dias",
+                    "third_dose_days": "21 dias",
+                    "booster_dose": "365 dias",
+                    "schedule": "2024/03/07"
+                }
+            ],
+            "history": [
+                {
+                    "id": 1,
+                    "type": "medicine",
+                    "name": "NexGard",
+                    "schedule": "2021/01/12"
+                },
+                {
+                    "id": 1,
+                    "type": "vaccine",
+                    "name": "antirrábica",
+                    "schedule": "2021/01/12"
+                }                
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Zeus",
+            "birthday": "5 anos e 3 meses",
+            "type": "Cão",
+            "gender": "Macho",
+            "breed": "Cani Corso",
+            "weight": "23.9",
+            "microchip": "",
+            "photo": ["data:image/jpeg;base64,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"],
+            "active": 1,
+            "medicines": [
+                {
+                    "id": 1, 
+                    "name": "NexGard",
+                    "type": "Antipulgas",
+                    "protection_days": "30", 
+                    "dosage": "1 tablete",
+                    "use": "oral",
+                    "schedule": "2023/12/19"
+                }, 
+                {
+                    "id": 3, 
+                    "name": "Vetmax Plus 700 mg",
+                    "type": "Vermífugo",
+                    "protection_days": "30", 
+                    "dosage": "1 comprimido",
+                    "use": "oral",
+                    "schedule": "2024/03/07"
+                }
+            ],
+            "vaccines": [
+                {
+                    "id": 1,
+                    "name": "antirrábica",
+                    "type": "monovalente",
+                    "disease": ["raiva"],
+                    "pet": ["cão", "gato"],
+                    "first_dose_days": "84 dias",
+                    "second_dose_days": "21 dias",
+                    "third_dose_days": "21 dias",
+                    "booster_dose": "365 dias",
+                    "schedule": "2023/12/19"
+                }, 
+                {
+                    "id": 3, 
+                    "name": "V10",
+                    "type": "polivalente",
+                    "disease": ["cinomose", "coronavirose", "hepatite infecciosa canina", "leptospirose (sorovares Canicola, Icterohaemorrhagiae, Grippotyphosa e Pomona)", "parainfluenza", "parvovirose"],
+                    "pet": ["cão"],
+                    "first_dose_days": "42 dias",
+                    "second_dose_days": "21 dias",
+                    "third_dose_days": "21 dias",
+                    "booster_dose": "365 dias",
+                    "schedule": "2024/03/07"
+                },
+                {
+                    "id": 4,
+                    "name": "gripe",
+                    "type": "monovalente",
+                    "disease": ["gripe"],
+                    "pet": ["cão"],
+                    "first_dose_days": "42 dias",
+                    "second_dose_days": "21 dias",
+                    "third_dose_days": "21 dias",
+                    "booster_dose": "365 dias",
+                    "schedule": "2024/03/07"
+                },
+                {
+                    "id": 5,
+                    "name": "leishmaniose",
+                    "type": "monovalente",
+                    "disease": ["leishmaniose"],
+                    "pet": ["cão"],
+                    "first_dose_days": "42 dias",
+                    "second_dose_days": "21 dias",
+                    "third_dose_days": "21 dias",
+                    "booster_dose": "365 dias",
+                    "schedule": "2024/03/07"
+                }
+            ],
+            "history": [
+                {
+                    "id": 1,
+                    "type": "medicine",
+                    "name": "NexGard",
+                    "schedule": "2021/01/12"
+                },
+                {
+                    "id": 1,
+                    "type": "vaccine",
+                    "name": "antirrábica",
+                    "schedule": "2021/01/12"
+                }                
+            ]
+        }
+    ]
+}

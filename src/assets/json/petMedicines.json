@@ -1,0 +1,114 @@
+{
+    "medicines": [
+        {
+            "id": 1, 
+            "pet": "Billy",
+            "name": "NexGard",
+            "type": "Antipulgas",
+            "protection_days": "30", 
+            "dosage": "1 tablete",
+            "use": "oral",
+            "schedule": "2023/12/19"
+        }, 
+        {
+            "id": 3, 
+            "pet": "Billy",
+            "name": "Vetmax Plus 700 mg",
+            "type": "Vermífugo",
+            "protection_days": "30", 
+            "dosage": "1 comprimido",
+            "use": "oral",
+            "schedule": "2024/03/07"
+        },
+        {
+            "id": 3, 
+            "pet": "Flufy",
+            "name": "Vetmax Plus 700 mg",
+            "type": "Vermífugo",
+            "protection_days": "30", 
+            "dosage": "1 comprimido",
+            "use": "oral",
+            "schedule": "2024/03/07"
+        },
+        {
+            "id": 1, 
+            "pet": "Mila",
+            "name": "NexGard",
+            "type": "Antipulgas",
+            "protection_days": "30", 
+            "dosage": "1 tablete",
+            "use": "oral",
+            "schedule": "2023/12/19"
+        }, 
+        {
+            "id": 3, 
+            "pet": "Mila",
+            "name": "Vetmax Plus 700 mg",
+            "type": "Vermífugo",
+            "protection_days": "30", 
+            "dosage": "1 comprimido",
+            "use": "oral",
+            "schedule": "2024/03/07"
+        },
+        {
+            "id": 1, 
+            "pet": "Nico",
+            "name": "NexGard",
+            "type": "Antipulgas",
+            "protection_days": "30", 
+            "dosage": "1 tablete",
+            "use": "oral",
+            "schedule": "2023/12/19"
+        }, 
+        {
+            "id": 3, 
+            "pet": "Nico",
+            "name": "Vetmax Plus 700 mg",
+            "type": "Vermífugo",
+            "protection_days": "30", 
+            "dosage": "1 comprimido",
+            "use": "oral",
+            "schedule": "2024/03/07"
+        },
+        {
+            "id": 1, 
+            "pet": "Thor",
+            "name": "NexGard",
+            "type": "Antipulgas",
+            "protection_days": "30", 
+            "dosage": "1 tablete",
+            "use": "oral",
+            "schedule": "2023/12/19"
+        }, 
+        {
+            "id": 3, 
+            "pet": "Thor",
+            "name": "Vetmax Plus 700 mg",
+            "type": "Vermífugo",
+            "protection_days": "30", 
+            "dosage": "1 comprimido",
+            "use": "oral",
+            "schedule": "2024/03/07"
+        },
+        {
+            "id": 1, 
+            "pet": "Zeus",
+            "name": "NexGard",
+            "type": "Antipulgas",
+            "protection_days": "30", 
+            "dosage": "1 tablete",
+            "use": "oral",
+            "schedule": "2023/12/19"
+        }, 
+        {
+            "id": 3, 
+            "pet": "Zeus",
+            "name": "Vetmax Plus 700 mg",
+            "type": "Vermífugo",
+            "protection_days": "30", 
+            "dosage": "1 comprimido",
+            "use": "oral",
+            "schedule": "2024/03/07"
+        }
+    ]
+}

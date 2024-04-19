@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@font-face {
+  font-family: 'PET_FAMILY_NAV';
+  src: url(../fonts/Light.ttf);
+ }
+
+  .content-pet {
+    padding: 0px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .separator {
+    padding: 0px;
+    margin: 0px 0px 25px 0px;
+    color-scheme:#D9D9D9;
+  }
+  
+  .main-pets {
+    width: 100%;
+    display: grid;
+    row-gap: 2rem;
+    column-gap: 1rem;
+    grid-template-columns: repeat(6, 1fr);
+    justify-items: center;
+  }
+  
+  .pet-card {
+    width: 180px;
+    height: 250px;
+    background-color: #D9D9D9;
+    border-radius: 15px;
+  }
+
+  .pet-card img {
+    margin: 0px;
+    padding: 0px;
+    max-height: 130px;
+    height: auto;
+    max-width: 180px;
+    width: auto;
+    justify-self: center;
+    border-radius: 15px 15px 0px 0px;
+  }
+
+  .pet-name {
+    margin: 0px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 0px;
+    font-weight: 600;
+    font-size: 20px;
+    display: flex;
+    
+  }
+  
+  .pet-birthday {
+    margin: 0px;
+    padding-top: 0px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 32px;
+    color: #7b1fa2;
+    display: flex;
+  }
+
+  .pet-link {
+    font-family: PET_FAMILY_NAV;
+    text-decoration: none;
+  }
+
+  .pet-card:hover {
+    background-color: #CDA4C7;
+  }
+
+  .btn-pet-schelude {
+    position: relative;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    width: 180px;
+    height: 40px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #383838;
+    background-color: #AF9AAD;
+    border-radius: 0px 0px 10px 10px;
+    border: 0px;
+  }
+
+  .btn-pet-schelude:hover {
+    color: white;
+    background-color: #7b1fa2;
+  }
+
+  .btn-pet-add {
+    padding-bottom: 0px;
+    width: 180px;
+    height: 40px;
+    font-size: 13px;
+    font-weight: 600;
+    color: white;
+    background-color: #3D6B42;
+    border-radius: 5px;
+    border: 0px;
+    vertical-align: center;
+  }
+   
+  .header-pet {
+    margin-bottom: 15px;
+  }
+
+  .header-pet-btn {
+    margin: 15px;
+    margin-left: 15px;
+    float: left;
+  }
+
+  .header-pet-switch {
+    margin-right: 20px;
+    margin-top: 12px;
+    float: right;
+    font-family: 'Roboto';
+    color:#8c8b8c;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .header-pet-search {
+    margin-left: 35px;
+    margin-top: 5px;
+    float: left;
+  }

@@ -1,0 +1,114 @@
+{
+    "vaccines": [
+        {
+            "id": 1,
+            "name": "antirrábica",
+            "type": "monovalente",
+            "disease": ["raiva"],
+            "pet": ["cão", "gato"],
+            "first_dose_days": "84",
+            "next_dose_days": "",
+            "booster_dose": "365",
+            "active": 1
+        },
+        {
+            "id": 2,
+            "name": "V8",
+            "type": "polivalente",
+            "disease": ["cinomose", "coronavirose", "hepatite infecciosa canina", "leptospirose (sorovares Canicola e Icterohaemorrhagiae)", "parainfluenza", "parvovirose"],
+            "pet": ["cão"],
+            "first_dose_days": "42",
+            "next_dose_days": ["21", "21"],
+            "booster_dose": "365",
+            "active": 1
+        },
+        {
+            "id": 3,
+            "name": "V10",
+            "type": "polivalente",
+            "disease": ["cinomose", "coronavirose", "hepatite infecciosa canina", "leptospirose (sorovares Canicola, Icterohaemorrhagiae, Grippotyphosa e Pomona)", "parainfluenza", "parvovirose"],
+            "pet": ["cão"],
+            "first_dose_days": "42",
+            "next_dose_days": ["21", "21"],
+            "booster_dose": "365",
+            "active": 1
+        },
+        {
+            "id": 4,
+            "name": "gripe",
+            "type": "monovalente",
+            "disease": ["gripe"],
+            "pet": ["cão"],
+            "first_dose_days": "42",
+            "next_dose_days": ["21", "21"],
+            "booster_dose": "365",
+            "active": 1
+        },
+        {
+            "id": 5,
+            "name": "leishmaniose",
+            "type": "monovalente",
+            "disease": ["leishmaniose"],
+            "pet": ["cão"],
+            "first_dose_days": "42",
+            "next_dose_days": ["21", "21"],
+            "booster_dose": "365",
+            "active": 1
+        },
+        {
+            "id": 6,
+            "name": "V3",
+            "type": "polivalente",
+            "disease": ["panleucopenia", "calicivirose", "rinotraqueíte"],
+            "pet": ["gato"],
+            "first_dose_days": "42",
+            "next_dose_days": ["21", "21"],
+            "booster_dose": "365",
+            "active": 1
+        },
+        {
+            "id": 7,
+            "name": "V4",
+            "type": "polivalente",
+            "disease": ["panleucopenia", "calicivirose", "rinotraqueíte", "clamidiose"],
+            "pet": ["gato"],
+            "first_dose_days": "42",
+            "next_dose_days": ["21", "21"],
+            "booster_dose": "365",
+            "active": 1
+        },
+        {
+            "id": 8,
+            "name": "V5",
+            "type": "polivalente",
+            "disease": ["panleucopenia", "calicivirose", "rinotraqueíte", "clamidiose", "leucemia"],
+            "pet": ["gato"],
+            "first_dose_days": "42",
+            "next_dose_days": ["21", "21"],
+            "booster_dose": "365",
+            "active": 1
+        },
+        {
+            "id": 9,
+            "name": "antirrábica",
+            "type": "monovalente",
+            "disease": ["raiva"],
+            "pet": ["equino"],
+            "first_dose_days": "120",
+            "next_dose_days": ["150", "21"],
+            "booster_dose": "365",
+            "active": 1
+        },
+        {
+            "id": 10,
+            "name": "Leptospirose",
+            "type": "monovalente",
+            "disease": ["raiva"],
+            "pet": ["equino"],
+            "first_dose_days": "30",
+            "next_dose_days": ["150", "21"],
+            "booster_dose": "365",
+            "active": 1
+        }
+    ]
+}

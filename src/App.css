@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@font-face {
+  font-family: 'PET_FAMILY_NAV';
+  src: url(./assets/fonts/Light.ttf);
+ }
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  left: 0px;
+  background: black;
+}
+
+.user {
+  position: absolute;
+  width: 120px;
+  height: 40px;
+  right: 0px;
+  top: 4px;
+  background: url(assets/img/user.png);
+  background-repeat: no-repeat;
+  background-position: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.user span {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: #FFFFFF;
+  margin: 0px 2px;
+}
+
+
+/* body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #EAEAEA;
+  font-family: 'Roboto';
+} */
+
+/* footer {
+  background-color: #3D6B42;
+  height: 50px;
+} */
+
+.content-nav {
+  background-color: #3D6B42;
+}
+  
+.nav {
+  background-color: #3D6B42;
+  display:flex;
+  color: white;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  gap: 2rem;
+  height: 160px;
+}
+
+.nav img {
+  margin: 0px;
+  padding: 0px;
+  background-color: #3D6B42;
+  background-repeat: no-repeat;
+}
+
+
+.banner {
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  border-radius: 0px 90px 0px 0px;
+  max-width: 180px;
+}
+
+.nav ul {
+  padding: 0;
+  padding-right: 20px;
+  align-items: self-end;
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  font-family: 'PET_FAMILY_NAV';
+  font-size: 24px;
+  font-weight: 500;
+  color: black;
+}
+
+.nav a {
+  color: inherit;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: .25rem;
+}
+
+.nav li.active {
+  background-color: #8C8B8C;
+
+}
+
+.nav li:hover {
+  background-color: #CDA4C7;
+
+}
+
+
+.home-container {
+  background-image: url(./assets/img/login.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 450px;
+  max-width: auto;
+  margin: 30px;
+  border: 10px solid #CDA4C7;
+  object-fit: contain;
+}
+
+.container img {
+  object-fit: contain;
+}
+
+.home-card {
+
+  justify-content: center;
+  align-items: center;
+  min-height: inherit;
+  max-width: inherit;
+  margin: 30px;
+}
+
+.h1 {
+  font-size: 30px;
+  font-family: 'Roboto';
+  color: white;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.h5 {
+  font-size: 13px;
+  font-family: 'Roboto';
+  color: #3D6B42;
+  text-align: left;
+}
+
+.content-login {
+  width: 300px;
+  height: 280px;
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 5% 0;
+  /* box-shadow: 1px 2px 10px rgba(255, 255, 255, 0.478), 3px 6px 20px black; */
+  padding: 20px;
+}
+
+input {
+  width: 100%;
+  height: 30px;
+  /* background: transparent;  */
+  border: none;
+  outline: none;
+  border-bottom: 1px solid white;
+  color: white;
+}
+
+.input-field {
+  position: relative;
+  margin-bottom: 15px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  font-family: 'Roboto';
+  font-size: 18px;
+  transform: translateY(18px);
+  transition: .25s ease-in-out;
+}
+
+input:focus {
+  border-bottom: 1px solid #3D6B42;
+  box-shadow: 0 1px 0 0#3D6B42;
+
+}
+
+input:focus + label{
+  transform: translateY(-14px) scale(.8);
+  color:  #3D6B42;
+  font-weight: bold;
+}
+
+input:not(:placeholder-shown) + label{
+  transform: translateY(-14px) scale(.8);
+  color:  #3D6B42;
+  font-weight: bold;
+}
+
+input:not(:placeholder-shown){
+  border-bottom: 2px solid #3D6B42;
+  box-shadow: 0 1px 0 0 #3D6B42;
+}
+
+input::placeholder{
+  color: transparent;
+}
+
+.button-login{
+  padding: 15px;
+} 
+
+.header-medicine {
+  margin-top: 10px;
+  padding-left: 20px;
+  float: left;
+}
+
+.float-left {
+  float: left;
+  padding-top: 20px;
+  padding-left: 15px;
+}
+
+.float-right {
+  float: right;
+  padding-left: 40px;
+}

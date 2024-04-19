@@ -1,0 +1,27 @@
+
+.content-pet-details {
+    background-color: lightgray;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;   
+
+}
+
+.space-1 {
+    padding-right: 50px;
+    max-width: 350px;
+    min-height: 563px;
+    height: auto;
+    vertical-align: top;
+}
+
+.space-2 {
+    padding-right: 50px;
+    min-width: 650px;
+    min-height: 563px;
+    height: auto;
+    vertical-align: top;
+}
+
